@@ -11,7 +11,7 @@ function ProjectDetail() {
       description:
         "Sistem klasifikasi madu asli dan campuran menggunakan multi-sensor berbasis machine learning.",
 
-      image: "/public/honey-detection.jpg",
+      image: "/honey-detection.jpg",
 
       overview:
         "Project ini merupakan sistem yang dirancang untuk membantu proses klasifikasi madu asli dan madu campuran dengan memanfaatkan data dari beberapa sensor dan algoritma machine learning.",
@@ -41,7 +41,7 @@ function ProjectDetail() {
       description:
         "Aplikasi berbasis web untuk mendeteksi emosi dari teks menggunakan machine learning.",
 
-      image: "/public/emotion-detection.jpg",
+      image: "/emotion-detection.jpg",
 
       overview:
         "Aplikasi ini dikembangkan untuk melakukan klasifikasi emosi berdasarkan teks yang diberikan oleh pengguna.",
@@ -69,7 +69,7 @@ function ProjectDetail() {
       description:
         "Website travel untuk pencarian dan pemesanan paket perjalanan secara online.",
 
-      image: "/public/travel.jpg",
+      image: "/travel.jpg",
 
       overview:
         "Project website travel dikembangkan untuk memberikan pengalaman kepada pengguna dalam mencari dan melakukan pemesanan paket perjalanan.",
@@ -96,7 +96,7 @@ function ProjectDetail() {
       description:
         "Aplikasi pemesanan tiket bioskop untuk memudahkan pengguna melakukan pemesanan tiket.",
 
-      image: "/public/bioskop.jpg",
+      image: "/bioskop.jpg",
 
       overview:
         "Aplikasi ini dibuat sebagai project pengembangan aplikasi pemesanan tiket bioskop.",
@@ -121,7 +121,7 @@ function ProjectDetail() {
       description:
         "Perancangan UI/UX website top up game dengan tampilan modern dan terpercaya.",
 
-      image: "/public/game.jpg",
+      image: "/game.jpg",
 
       overview:
         "Project ini berfokus pada perancangan antarmuka website top up game menggunakan pendekatan UI/UX.",
@@ -147,7 +147,7 @@ function ProjectDetail() {
       description:
         "Project tim dalam merancang dan mengembangkan prototype drone.",
 
-      image: "/public/drone.jpg",
+      image: "/drone.jpg",
 
       overview:
         "Project drone dilakukan secara berkelompok sebagai bagian dari kegiatan engineering dan perancangan perangkat.",
@@ -172,7 +172,7 @@ function ProjectDetail() {
       description:
         "Aplikasi coffee shop yang dikembangkan sebagai project tim.",
 
-      image: "/public/coffee.jpg",
+      image: "/coffee.jpg",
 
       overview:
         "Aplikasi ini dikembangkan untuk menerapkan konsep pengembangan aplikasi dan pengelolaan data.",
@@ -197,7 +197,7 @@ function ProjectDetail() {
       description:
         "Pengembangan sistem informasi berbasis web untuk mendukung kebutuhan sistem kinerja DJPRL.",
 
-      image: "/public/kkp.jpg",
+      image: "/kkp.jpg",
 
       overview:
         "Project ini dikerjakan dalam kegiatan magang dan berfokus pada pengembangan sistem informasi berbasis web.",
@@ -221,7 +221,7 @@ function ProjectDetail() {
       description:
         "Redesign website dengan fokus pada layout, navigasi, komponen, dan implementasi front-end.",
 
-      image: "/public/esdm.jpg",
+      image: "/esdm.jpg",
 
       overview:
         "Project redesign dilakukan untuk meningkatkan tampilan dan struktur antarmuka website.",
