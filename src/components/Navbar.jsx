@@ -8,15 +8,16 @@ function Navbar() {
   };
 
   return (
-    <nav>
-      <div className="logo">
+    <nav className="navbar">
+      <a href="/#home" className="logo" onClick={closeMenu}>
         PORTFOLIO
-      </div>
+      </a>
 
       <button
         className={`menu-toggle ${menuOpen ? "active" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Toggle menu"
+        aria-label="Toggle navigation menu"
+        aria-expanded={menuOpen}
       >
         <span></span>
         <span></span>
@@ -25,35 +26,37 @@ function Navbar() {
 
       <ul className={menuOpen ? "nav-menu active" : "nav-menu"}>
         <li>
-          <a href="#home" onClick={closeMenu}>Home</a>
+          <a href="/#home" onClick={closeMenu}>Home</a>
         </li>
 
         <li>
-          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="/#about" onClick={closeMenu}>About</a>
         </li>
 
         <li>
-          <a href="#skills" onClick={closeMenu}>Skills</a>
+          <a href="/#skills" onClick={closeMenu}>Skills</a>
         </li>
 
         <li>
-          <a href="#projects" onClick={closeMenu}>Projects</a>
+          <a href="/#projects" onClick={closeMenu}>Projects</a>
         </li>
 
         <li>
-          <a href="#experience" onClick={closeMenu}>Experience</a>
+          <a href="/#experience" onClick={closeMenu}>Experience</a>
         </li>
 
         <li>
-          <a href="#education" onClick={closeMenu}>Education</a>
+          <a href="/#education" onClick={closeMenu}>Education</a>
         </li>
 
         <li>
-          <a href="#certifications" onClick={closeMenu}>Certifications</a>
+          <a href="/#certifications" onClick={closeMenu}>
+            Certifications
+          </a>
         </li>
 
         <li>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <a href="/#contact" onClick={closeMenu}>Contact</a>
         </li>
       </ul>
     </nav>
