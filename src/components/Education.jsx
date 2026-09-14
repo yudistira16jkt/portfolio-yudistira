@@ -1,3 +1,9 @@
+import trilogiLogo from "../assets/trilogi.png";
+import trilogi1 from "../assets/e1.png";
+import trilogi4 from "../assets/e4.png";
+import trilogi3 from "../assets/e3.png";
+import trilogi2 from "../assets/e2.png";
+
 function Education() {
   return (
     <section className="education" id="education">
@@ -23,7 +29,7 @@ function Education() {
 
             <div className="education-logo">
               <img
-                src="/src/assets/trilogi.png"
+                src={trilogiLogo} alt=""
               />
             </div>
 
@@ -73,25 +79,25 @@ function Education() {
 
             <div className="collage-image collage-image-1">
               <img
-                src="/src/assets/e1.png"
+                src={trilogi1} alt=""
               />
             </div>
 
             <div className="collage-image collage-image-2">
               <img
-                src="/src/assets/e4.png"
+                src={trilogi4} alt=""
               />
             </div>
 
             <div className="collage-image collage-image-3">
               <img
-                src="/src/assets/e3.png"
+                src={trilogi3} alt=""
               />
             </div>
 
             <div className="collage-logo">
               <img
-                src="/src/assets/e2.png"
+                src={trilogi2} alt=""
               />
             </div>
 

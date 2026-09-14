@@ -1,3 +1,7 @@
+import esdmImage from "../assets/esdm2.jpg";
+import kkpImage from "../assets/kkp1.jpg";
+import trilogiImage from "../assets/trilogi.jpg";
+
 function Experience() {
   const experiences = [
     {
@@ -6,7 +10,7 @@ function Experience() {
       role: "IT Intern",
       description:
         "Redesign website dengan memperbaiki layout, navigasi, dan komponen antarmuka serta mengimplementasikan rancangan front-end berdasarkan kebutuhan pengguna.",
-      image: "/src/assets/esdm2.jpg",
+      image: esdmImage,
     },
 
     {
@@ -15,7 +19,7 @@ function Experience() {
       role: "IT Intern",
       description:
         "Berpartisipasi dalam perancangan dan pengembangan sistem informasi berbasis web, termasuk pengembangan fitur Sistem Kinerja DJPRL serta konfigurasi Windows dan penyusunan SOP.",
-      image: "/src/assets/kkp1.jpg",
+      image: kkpImage
     },
 
     {
@@ -24,7 +28,7 @@ function Experience() {
       role: "Teaching Assistant",
       description:
         "Melakukan anotasi dan pelabelan ribuan gambar, observasi CCTV selama 5 hari, ekstraksi informasi tanggal, waktu, individu, dan aktivitas, serta menyusun dan memeriksa konsistensi dataset.",
-      image: "/src/assets/trilogi.jpg",
+      image: trilogiImage
     },
   ];
 

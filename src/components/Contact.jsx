@@ -1,28 +1,33 @@
+import waImage from "../assets/wa.jpg";
+import igImage from "../assets/ig.jpg";
+import inImage from "../assets/in.jpg";
+import mailImage from "../assets/mail.jpg";
+
 function Contact() {
   const contacts = [
     {
       name: "WhatsApp",
       value: "081298258048",
       link: "https://wa.me/6281298258048",
-      image: "/src/assets/wa.jpg",
+      image: waImage,
     },
     {
       name: "Instagram",
       value: "yudiis.tiira",
       link: "https://instagram.com/yudiis.tiira",
-      image: "/src/assets/ig.jpg",
+      image: igImage,
     },
     {
       name: "LinkedIn",
       value: "Yudistira",
       link: "https://linkedin.com/in/yudistira-",
-      image: "/src/assets/in.jpg",
+      image: inImage,
     },
     {
       name: "Email",
       value: "yudistira16jkt@gmail.com",
       link: "mailto:yudistira16jkt@gmail.com",
-      image: "/src/assets/mail.jpg",
+      image: mailImage,
     },
   ];
 
