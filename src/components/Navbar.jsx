@@ -1,19 +1,39 @@
-function Navbar() {
-  return (
-    <nav>
-      <div className="logo">
-        PORTFOLIO
-      </div>
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
+function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+  return (
+    <nav className="navbar">
+      <Link to="/" className="logo" onClick={closeMenu}>
+        PORTFOLIO
+      </Link>
+
+      <button
+        className={`menu-toggle ${menuOpen ? "active" : ""}`}
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label="Toggle navigation menu"
+        aria-expanded={menuOpen}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul className={menuOpen ? "nav-menu active" : "nav-menu"}>
+        <li><Link to="/#home" onClick={closeMenu}>Home</Link></li>
+        <li><Link to="/#about" onClick={closeMenu}>About</Link></li>
+        <li><Link to="/#skills" onClick={closeMenu}>Skills</Link></li>
+        <li><Link to="/#projects" onClick={closeMenu}>Projects</Link></li>
+        <li><Link to="/#experience" onClick={closeMenu}>Experience</Link></li>
+        <li><Link to="/#education" onClick={closeMenu}>Education</Link></li>
+        <li><Link to="/#certifications" onClick={closeMenu}>Certifications</Link></li>
+        <li><Link to="/#contact" onClick={closeMenu}>Contact</Link></li>
       </ul>
     </nav>
   );
