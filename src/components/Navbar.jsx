@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,16 +8,15 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbar">
-      <a to="/" className="logo" onClick={closeMenu}>
+    <nav>
+      <div className="logo">
         PORTFOLIO
-      </a>
+      </div>
 
       <button
         className={`menu-toggle ${menuOpen ? "active" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
-        aria-label="Toggle navigation menu"
-        aria-expanded={menuOpen}
+        aria-label="Toggle menu"
       >
         <span></span>
         <span></span>
@@ -26,14 +24,37 @@ function Navbar() {
       </button>
 
       <ul className={menuOpen ? "nav-menu active" : "nav-menu"}>
-        <li><a to="/#home" onClick={closeMenu}>Home</a></li>
-        <li><a to="/#about" onClick={closeMenu}>About</a></li>
-        <li><a to="/#skills" onClick={closeMenu}>Skills</a></li>
-        <li><a to="/#projects" onClick={closeMenu}>Projects</a></li>
-        <li><a to="/#experience" onClick={closeMenu}>Experience</a></li>
-        <li><a to="/#education" onClick={closeMenu}>Education</a></li>
-        <li><a to="/#certifications" onClick={closeMenu}>Certifications</a></li>
-        <li><a to="/#contact" onClick={closeMenu}>Contact</a></li>
+        <li>
+          <a href="#home" onClick={closeMenu}>Home</a>
+        </li>
+
+        <li>
+          <a href="#about" onClick={closeMenu}>About</a>
+        </li>
+
+        <li>
+          <a href="#skills" onClick={closeMenu}>Skills</a>
+        </li>
+
+        <li>
+          <a href="#projects" onClick={closeMenu}>Projects</a>
+        </li>
+
+        <li>
+          <a href="#experience" onClick={closeMenu}>Experience</a>
+        </li>
+
+        <li>
+          <a href="#education" onClick={closeMenu}>Education</a>
+        </li>
+
+        <li>
+          <a href="#certifications" onClick={closeMenu}>Certifications</a>
+        </li>
+
+        <li>
+          <a href="#contact" onClick={closeMenu}>Contact</a>
+        </li>
       </ul>
     </nav>
   );
