@@ -10,9 +10,9 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo" onClick={closeMenu}>
+      <a to="/" className="logo" onClick={closeMenu}>
         PORTFOLIO
-      </Link>
+      </a>
 
       <button
         className={`menu-toggle ${menuOpen ? "active" : ""}`}
@@ -26,14 +26,14 @@ function Navbar() {
       </button>
 
       <ul className={menuOpen ? "nav-menu active" : "nav-menu"}>
-        <li><Link to="/#home" onClick={closeMenu}>Home</Link></li>
-        <li><Link to="/#about" onClick={closeMenu}>About</Link></li>
-        <li><Link to="/#skills" onClick={closeMenu}>Skills</Link></li>
-        <li><Link to="/#projects" onClick={closeMenu}>Projects</Link></li>
-        <li><Link to="/#experience" onClick={closeMenu}>Experience</Link></li>
-        <li><Link to="/#education" onClick={closeMenu}>Education</Link></li>
-        <li><Link to="/#certifications" onClick={closeMenu}>Certifications</Link></li>
-        <li><Link to="/#contact" onClick={closeMenu}>Contact</Link></li>
+        <li><a to="/#home" onClick={closeMenu}>Home</a></li>
+        <li><a to="/#about" onClick={closeMenu}>About</a></li>
+        <li><a to="/#skills" onClick={closeMenu}>Skills</a></li>
+        <li><a to="/#projects" onClick={closeMenu}>Projects</a></li>
+        <li><a to="/#experience" onClick={closeMenu}>Experience</a></li>
+        <li><a to="/#education" onClick={closeMenu}>Education</a></li>
+        <li><a to="/#certifications" onClick={closeMenu}>Certifications</a></li>
+        <li><a to="/#contact" onClick={closeMenu}>Contact</a></li>
       </ul>
     </nav>
   );
