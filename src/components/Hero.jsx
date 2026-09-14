@@ -14,7 +14,7 @@ function Hero() {
         </h1>
 
         <h2>
-          Web Development • Data • Machine Learning
+          Data • Web Development • Machine Learning
         </h2>
 
         <p className="hero-description">
